@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 100%;
+    /* height: 150vh; */
+    height: 100vw;
+    background: linear-gradient(0deg, #9EE6C2 0%, #FFFFFA 100%);
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.hero .nav{
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 8vh;
+}
+
+.hero .nav .logo{
+    width: 10%;
+    /* background-color: aqua; */
+}
+
+.hero .nav .logo img{
+    width: 100%;
+}
+
+.hero .nav .burger{
+    width: 4%;
+}
+.hero .nav .burger img{
+    width: 100%;
+}
+
+.hero .heading{
+    width: fit-content;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: antiquewhite; */
+    margin: 0 auto;
+    font-size: 2.2vw;
+    font-weight: 550;
+    /* margin-top: 6vh; */
+    margin-top: 3.5vw;
+}
+
+.hero .getItNow{
+    width: 30%;
+    background-color: #FF6D62;
+    display: flex;
+    margin: 0 auto;
+    height: calc(3vh + 3vw);
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.23vw;
+    font-weight: 600;
+    color: white;
+    border-radius: 35px;
+    margin-top: 4vw;
+}
+
+.hero .getItNow img{
+    height: 2.0vw;
+    margin-right: 3%;
+    padding-bottom: 1%;
+}
+
+.hero .subheading{
+    /* background-color: antiquewhite; */
+    width: fit-content;
+    font-size: 1.9vw;
+    margin: 0 auto;
+    margin-top: 6vw;
+}
+
+.hero .email{
+    width: 30%;
+    height: calc(3vh + 3vw);
+    display: flex;
+    margin: 0 auto;
+    margin-top: 3vw;
+}
+
+.hero .email .input{
+    background-color: white;
+    width: 75%;
+    border-bottom-left-radius: 35px;
+    border-top-left-radius: 35px;
+    height: 100%;
+}
+.hero .email .input input{
+    width: 90%;
+    margin-left: 5%;
+    height: 60%;
+    margin-top: calc(0.82vh + 0.50vw);
+    /* background-color: #B4D245; */
+    border: none;
+    outline: none;
+    font-size: 1.5vw;
+}
+.hero .email button{
+    background-color: #B4D245;
+    width: 30%;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: 600;
+    border-bottom-right-radius: 35px;
+    border-top-right-radius: 35px;
+    cursor: pointer;
+}
+
+.grassOne{
+    width: 100%;
+    position: absolute;
+    bottom: 5vw;
+}
+.grassTwo{
+    width: 100%;
+    position: absolute;
+    bottom: 0vh;
+}
+
+
+
+.hero .contentImg{
+    /* width: 100%;
+    position: absolute; */
+    position: absolute;
+    width: 50%;
+    /* background-color: rgba(180, 210, 69, 0.377); */
+    bottom: -4.7vw;
+    left: 25%;
+}
+.hero .textContent{
+    position: absolute;
+    width: 32%;
+    left: 33%;
+    bottom: 2.4vw;
+}
+.hero .textContent h3{
+    color: white;
+    font-size: 1.9vw;
+    font-weight: 500;
+}
+.hero .textContent p{
+    margin-top: 2.5vw;
+    color: white;
+    font-weight: 400;
+    font-size: 1.55vw;
+    /* line-height-step: 100; */
+    line-height: 1.4;
+}
+
+.containerOne{
+    width: 100%;
+    height: 143vw;
+    background: linear-gradient(179.98deg, #FFFFFF 35.24%, #FFE5C4 90.98%);
+    /* position: relative; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.containerOne .apple{
+    height: 7vw;
+    position: absolute;
+    /* top: calc(150vh + 1.2vw); */
+    top: 101.2vw;
+    left: 38.7vw;
+}
+.containerOne .apple img{
+    height: 100%;
+}
+.containerOne .android{
+    
+    position: relative;
+    /* margin-left: 39.5vw;
+    margin-top: 14vw; */
+    top: 14vw;
+    left: 39.5vw;
+    
+}
+.containerOne .android img{
+    height: 6.5vw;
+}
+
+.containerOne .subheading{
+    /* background-color: antiquewhite; */
+    width: fit-content;
+    font-size: 2.1vw;
+    margin: 0 auto;
+    margin-top: 21vw;
+    font-weight: 450;
+    /* height: fit-content; */
+}
+
+.iconic{
+    width: 40%;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 5vw;
+}
+.iconic img{
+    width: 5vw;
+}
+.iconic h3{
+    font-size: 1.9vw;
+    font-weight: 500;
+}
+
+.iconic p{
+    text-align: center;
+    font-size: 1.6vw;
+    font-weight: 400;
+}
+
+.waves{
+    width: 100%;
+    /* opacity: 0.3; */
+}
+.containerTwo{
+    font-family: 'Roboto', sans-serif;
+    height: fit-content;
+    /* background-color: aliceblue; */
+    background: linear-gradient(180deg, #39A4E2 3.51%, #00789F 89.44%);
+    color: white;
+}
+
+.containerTwo .subheading{
+    width: 100%;
+    /* background-color: #B4D245; */
+    text-align: center;
+    position: relative;
+    top: 5vw;
+    font-size: 1.9vw;
+    font-weight: 450;
+}
+
+.containerTwo .rating{
+    width: 40%;
+    /* background-color: #9EE6C2; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 10vw;
+}
+.containerTwo .rating .rateText{
+    text-align: center;
+    margin-top: 3vw;
+    font-size: 1.65vw;
+    font-weight: 400;
+}
+.containerTwo .rating .rate{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: #B4D245; */
+    width: 50%;
+}
+.containerTwo .rating .rate img{
+    width: 3.1vw;
+}
+.containerTwo .review{
+    width: 50%;
+    /* background-color: #9EE6C2; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 5vw;
+}
+
+.containerTwo .review img{
+    width: 5vw;
+}
+.containerTwo .review h3{
+    font-size: 1.9vw;
+    font-weight: 500;
+    margin-top: 1.5vw;
+}
+.containerTwo .review p{
+    font-size: 1.7vw;
+    font-weight: 400;
+    margin-top: 1.5vw;
+    margin-bottom: 5vw;
+}
+footer{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: fit-content;
+    background-color: #85C28C;
+}
+
+footer .subheading{
+    width: 100%;
+    /* background-color: #B4D245; */
+    text-align: center;
+    position: relative;
+    top: 5vw;
+    font-size: 1.9vw;
+    font-weight: 450;
+    color: white;
+}
+
+footer .social{
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7vw;
+}
+footer .social img{
+    width: 4vw;
+}
+
+footer .line{
+    width: 100%;
+    background-color: white;
+    height: 0.5vh;
+    margin-top: 3vw;
+}
+footer p{
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 8vw;
+    font-size: 1.1vw;
+    padding-bottom: 3vw;
+}
+
+@media (orientation: landscape) {
+    .hero{
+        height: 85vw;
+    }
+    .containerOne .apple{
+        top: 86.2vw;
+    }
+}
